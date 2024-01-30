@@ -6,26 +6,20 @@ gem 'rails', '3.1.12'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
-#gem 'sqlite3-ruby', '1.3.2', :require => 'sqlite3'
-#gem 'gravatar_image_tag', '1.0.0.pre2'
 gem 'gravatar_image_tag'
 gem 'will_paginate', '3.0.pre2'
 
 group :development do
-#  gem 'rspec-rails', '2.4.0'
   gem 'rspec-rails'
-  gem 'annotate-models', '1.0.4'
-#  gem 'faker', '0.3.1'
+  gem 'annotate', '3.2.0'
   gem 'faker'
 end
 
 group :test do
   gem 'autotest', '4.4.6'
-#  gem 'rspec', '2.4.0'
   gem 'rspec'
   gem 'webrat', '0.7.1'
   gem 'spork', '0.8.4'
-#  gem 'factory_girl_rails', '1.0'
   gem 'factory_girl_rails'
 end
 
@@ -41,8 +35,7 @@ end
 
 # Bundle the extra gems:
 # gem 'bj'
-# gem 'nokogiri'
-# gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'nokogiri'
 # gem 'aws-s3', :require => 'aws/s3'
 
 # Bundle gems for the local environment. Make sure to
